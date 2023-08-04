@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    max-width: 600px;
+    margin:auto;
+    padding: 0px 1rem;
+}
+h1{
+    font-weight:500!important;
+    font-size:2em!important;
+    margin-top:1rem !important;
+    text-align:center;
+}
+.top{
+    display:flex;
+    margin-top:1rem;
+    gap:1rem;
+    justify-content: center;
+}
+input{
+    border:none;
+    outline:none;
+    width:400px;
+    padding: 0.5rem!important;
+    border-bottom:1px solid #000;
+}
+.add{
+    background-color: #000;
+    color:#fff;
+    padding: 0.5rem 1.5rem;
+    cursor:pointer;
+}
+.todo{
+    position:relative;
+    margin-top:1rem;
+    background-color:#000;
+    color:#fff;
+    padding:1.5rem 3rem;
+    border-radius:5px;
+}
+.icons{
+    position:absolute;
+    display: flex;
+    top:50%;
+    transform:translate(-50%);
+    right:20px;
+    gap:0.5rem;
+}
+.icon{
+    cursor:pointer;
+    font-size:20px;
+}
+.todo{
+    width:50%;
+
+}
+.list{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+.styleIt h2{
+    width:fit-content;
+    font-size: 1.2rem;
+}
+@media only screen and  (max-width:500px) {
+    .todo{
+        width:100%;
+    }
+}
