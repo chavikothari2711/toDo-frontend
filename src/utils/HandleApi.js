@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const baseUrl = "https://todobackend-wch3.onrender.com/"
+const baseUrl = "https://todobackend-wch3.onrender.com"
 
 const getAllToDo = async(setToDo) =>{
     try{
